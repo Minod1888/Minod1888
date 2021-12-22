@@ -1,0 +1,9 @@
+import math
+AB =int(input())
+BC =int(input())
+AC = math.sqrt(AB**2+BC**2)
+MC=AC/2
+MB=BC/2
+angle=int(round(math.degrees(math.acos(MB/MC))))
+angle=str(angle)
+print (angle+chr(176))
