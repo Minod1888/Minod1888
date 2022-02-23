@@ -1,0 +1,7 @@
+def dis(price, discount):
+  discount=discount/100
+  final=price*discount
+  final1=price-final
+  final1=round(final1,2)
+  return final1
+	
